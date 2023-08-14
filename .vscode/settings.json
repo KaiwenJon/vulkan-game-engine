@@ -1,0 +1,70 @@
+{
+    "git.autofetch": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.colorTheme": "Monokai Classic",
+    "todohighlight.keywords": [
+        {
+            "text": "DEBUG:",
+            "color": "red",
+            "border": "1px solid red",
+            "overviewRulerColor": "grey"
+        },{
+            "text": "REVIEW:",
+            "color": "#33D1FF",
+            "border": "1px solid #33D1FF",
+            "overviewRulerColor": "grey"
+        },
+        {
+            "text": "NOTE:",
+            "color": "#FF336B",
+            "border": "1px solid #FF336B",
+            "overviewRulerColor": "grey"
+        },
+        {
+            "text": "HACK:",
+            "color": "yellow",
+            "border": "1px solid yellow",
+            "isWholeLine": false,
+        },
+        {
+            "text": "TODO:",
+            "color": "#FF9633",
+            "border": "1px solid #FF9633",
+            "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+            "backgroundColor": "rgba(0,0,0,.2)",
+            //other styling properties goes here ... 
+        }
+    ],
+    "todohighlight.defaultStyle": {
+        "color": "red",
+        "backgroundColor": "rgba(0,0,0,.2)",
+        "overviewRulerColor": "#ffab00",
+        "borderRadius": "2px"
+        //other styling properties goes here ... 
+    },
+    "todohighlight.include": [
+        "**/*.js",
+        "**/*.jsx",
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.html",
+        "**/*.php",
+        "**/*.css",
+        "**/*.scss"
+    ],
+    "todohighlight.exclude": [
+        "**/node_modules/**",
+        "**/bower_components/**",
+        "**/dist/**",
+        "**/build/**",
+        "**/.vscode/**",
+        "**/.github/**",
+        "**/_output/**",
+        "**/*.min.*",
+        "**/*.map",
+        "**/.next/**"
+    ],
+}
