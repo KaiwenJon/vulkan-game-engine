@@ -67,4 +67,9 @@
         "**/*.map",
         "**/.next/**"
     ],
+    "files.associations": {
+        "entry.h": "c",
+        "platform.h": "c",
+        "application.h": "c"
+    },
 }
